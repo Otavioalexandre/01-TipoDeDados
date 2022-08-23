@@ -6,17 +6,19 @@ using namespace std;
 
 int main()
 {
-    cout << "Estrutura de Dados Fatec" << endl;
+    cout << "Estrutura de Dados Fatec - Otávio Alexandre\n" << endl;
 
-    cout << "Tipos Numericos\n";
-    cout << "===============\n";
+    cout << "Tipos Numericos" << endl;
+    cout << "===============\n" << endl;
     int i = 10;
     short s = 18;
     long l = 200000;
     float f = 1.97F;
     double  d = 4.73;
-    cout << "Inteiros\n";
-    cout << "  int i = " << i << " ocupa " << sizeof(i) << " bytes\n";
+
+    cout << "Inteiros\n" <<endl;
+    
+    cout << "int i = " << i << " ocupa " << sizeof(i) << " bytes\n";
     cout << "short s = " << s << " ocupa " << sizeof(s) << " bytes\n";
     cout << "long  l = " << l << " ocupa " << sizeof(l) << " bytes\n\n";
     cout << "Ponto Flutuante (Reais)\n";
